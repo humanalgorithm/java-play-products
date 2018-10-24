@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is Home Page</title>
+</head>
+<body>
+<h1> ${product_string}</h1>
+#{list products, as:'product'}
+<div>
+    Name: ${product.name}
+    <br>
+    URL: ${product.url}
+    <br>
+    Description ${product.description}
+    <br>
+    Price ${product.price}
+    <br>
+    
+</div>
+#{/list}
+</body>
+</html>
