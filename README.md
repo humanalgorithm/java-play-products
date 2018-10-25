@@ -16,3 +16,14 @@
  
  ## Order Created Page
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/order_created_page.png "Order Created Page")
+  
+  
+## To Run
+ 1. From one directiory above this folder apply evolutions: play evolutions:apply java-play-products
+ 2. Run server: java run java-play-products
+ 3. Browser to localhost:9000
+ 
+ ## Other requirements notes:
+ 1. Make sure you have Java 1.8 installed
+ 2. Make sure you have mysql-connector.jar in your Java Runtime Environment
+ 3. Your mysql server should be version 8.0 or above
