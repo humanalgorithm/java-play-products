@@ -19,9 +19,10 @@
   
   
 ## To Run
- 1. From one directiory above this folder apply evolutions: play evolutions:apply java-play-products
- 2. Run server: java run java-play-products
- 3. Browser to localhost:9000
+ 1. From one directiory above this folder apply evolutions: "play evolutions:apply java-play-products"
+  ..1. Note that you must first run these database scripts before the application will work*
+ 2. Run server: "java run java-play-products"
+ 3. Browse to localhost:9000
  
  ## Other requirements notes:
  1. Make sure you have Java 1.8 installed
