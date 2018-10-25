@@ -15,7 +15,7 @@
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/payment_selection_page.png "Payment selection page")
  
  ## Order Created Page
-![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/order_created_page.png "Order Created Page"
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/order_created_page.png "Order Created Page")
 
 ## Requirements
 1. You must have a local instance of MySQL running with a database named "products"
