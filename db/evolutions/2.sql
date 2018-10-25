@@ -1,14 +1,13 @@
 
 # --- !Ups
-
-CREATE TABLE Product(
+CREATE TABLE Address (
        id INT NOT NULL AUTO_INCREMENT,
-       name VARCHAR(255),
-       url VARCHAR(255),
-       description VARCHAR(255),
-       price INT,
-       primary key(id)
-)
+       address_line1 VARCHAR(255),
+       address_city VARCHAR(255),
+       address_state VARCHAR(255),
+       address_zip VARCHAR(255),
+       PRIMARY KEY(id)
+);
 
 # --- !Downs
-DROP TABLE IF EXISTS product;
+DROP TABLE IF EXISTS Address;

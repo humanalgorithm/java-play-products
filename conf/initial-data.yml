@@ -1,44 +1,21 @@
-# Test data
-
-UserAccount(john):
-  email:          john@gmail.com
-  password:       password
-  fullName:       JohnJohn
-  username:       john
-  isAdmin:        true
-
-UserAccount(person):
-  email:          person@gmail.com
-  password:       password
-  fullName:       PersonPerson
-  username:       person
-  isAdmin:        false
-
-UserAccount(human):
-  email:          human@gmail.com
-  password:       password
-  fullName:       HumanHuman
-  username:       human
-  isAdmin:        false
-
 Product(cool_product):
   name: Cool Product
-  url: = http://cool-url.com
+  url: http://cool-url.com
   description:  >
                 This is a description about the cool product that is in fact very cool. You should know about all of the cool features of this cool product available
-  price: 102.00
+  price: 102.29
 
 Product(new_product):
   name: New Product
-  url: = http://product-url.com
+  url: http://product-url.com
   description:  >
                 This is a description about the new product that is in fact very new. You should know about all of
                 the new features of this new product available nationwide
-  price: 99.0
+  price: 99.29
 
 Product(best_product):
   name: Best Product
-  url: = http://best-product-url.com
+  url: http://best-product-url.com
   description:  >
                 This is a description about the best product that is in fact very  best. You should know about all of
                 the best features of this new product available nationwide
@@ -46,8 +23,16 @@ Product(best_product):
 
 Product(edgy_product):
   name: Edgy Product
-  url: = http://edgy-product-url.com
+  url: http://edgy-product-url.com
   description:  >
               This is a description about the edgy product that is in fact very edgy. You should know about all of
               the edgy features of this new product available nationwide
+  price: 44.22
+
+Product(useful_product):
+  name: Useful Product
+  url:  http://useful-product-url.com
+  description:  >
+    This is a description about the useful product that is in fact very useful. You should know about all of
+    the useful features of this useful product available nationwide
   price: 44.22

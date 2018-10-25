@@ -2,7 +2,14 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-GET     /                                       HomePage.index
+GET     /                                        Products.list
+
+GET /payments/select_payment/{product_id}        Payments.show
+
+POST /orderitems/create_order_item               OrderItems.createOrderItem
+
+GET /order_items/list                            OrderItems.list
+
 
 # Home page
 #GET     /                                       Application.index

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="@{'/public/javascripts/main.js'}"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="well well-sm">
+        <strong>View Orders</strong>
+    </div>
+
+    <div id="products" class="row list-group">
+        #{list orderItems, as:'orderItem'}
+        <div class="item  col-xs-4 col-lg-4">
+            <div class="thumbnail">
+                <div class="caption">
+                    <h4 class="group inner list-group-item-heading">
+                        ${orderItem.stripeToken}</h4>
+                    <p class="group inner list-group-item-text">
+                        ${orderItem.UUID}</p>
+                </div>
+            </div>
+        </div>
+        #{/list}
+    </div>
+</div>
+
+</body>
+</html>

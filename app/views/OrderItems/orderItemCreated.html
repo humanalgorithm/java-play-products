@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="@{'/public/javascripts/main.js'}"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="well well-sm">
+        <strong>Order Created</strong>
+    </div>
+    <h2><a href="/">Back to Products</a></h2>
+
+        <div class="col-lg-10">
+            <img src="@{'/public/images/yesbaby.jpg'}">
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="group inner list-group-item-heading">
+                            Order Id: ${orderItem.UUID}</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="group inner list-group-item-heading">
+                            Stripe Token: ${orderItem.stripeToken}</h4>
+                    </div>
+                </div>
+                <hr>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p class="lead">Address: ${address.address_line1}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="lead">Address City: ${address.address_city}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="lead">Address Zip: ${address.address_zip}</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+</body>
+</html>
