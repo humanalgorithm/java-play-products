@@ -20,7 +20,7 @@
   
 ## To Run
  1. From one directiory above this folder apply evolutions: "play evolutions:apply java-play-products"
-  ..1. Note that you must first run these database scripts before the application will work*
+  ⋅⋅1. Note that you must first run these database scripts before the application will work*
  2. Run server: "java run java-play-products"
  3. Browse to localhost:9000
  
