@@ -17,6 +17,10 @@
  ## Order Created Page
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/order_created_page.png "Order Created Page")
 
+ ## View All Orders Page
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/order_list_page.png "Order List Page")
+
+
 ## Requirements
 1. You must have a local instance of MySQL running with a database named "products"
 2. A user with username "root" and password "root", or change the db config in application.conf
