@@ -3,7 +3,7 @@
 # Fun with Java Play Framework
 ## Product Checkout App
 
-### Demonstrates usage of Java Play Framework with a simplified product checkout page.
+### Demonstrates usage of Java Play Framework with a simplified product checkout page. Submits a payment to Stripe and retrieves a payment token
 
 ## Products Page List View, url: /
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/products_page_grid.png "Products Page list view")
@@ -20,6 +20,9 @@
  ## View All Orders Page, url: /order_items/list
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/orders_list_page.png "Order List Page")
 
+## Stripe
+1. Logic for Stripe payments is located in Stripe provided .js file, located in this repo at /public/javascripts/stripe.js
+2. Here a Stripe token is provided to a Stripe client and then executes call to Stripe API
 
 ## Requirements
 1. You must have a local instance of MySQL running with a database named "products"
