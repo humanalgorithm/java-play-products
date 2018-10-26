@@ -17,7 +17,7 @@
  ## Order Created Page, url: /orderitems/create_order_item 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/order_created_page.png "Order Created Page")
 
- ## View All Orders Page url: /order_items/list
+ ## View All Orders Page, url: /order_items/list
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/orders_list_page.png "Order List Page")
 
 
