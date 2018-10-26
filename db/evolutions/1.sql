@@ -4,7 +4,7 @@ CREATE TABLE Product (
        name VARCHAR(255),
        url VARCHAR(255),
        description VARCHAR(255),
-       price DECIMAL,
+       price DECIMAL(5,2),
        PRIMARY KEY(id)
 );
 

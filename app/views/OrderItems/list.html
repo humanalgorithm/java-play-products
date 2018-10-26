@@ -15,20 +15,47 @@
         <strong>View Orders</strong>
     </div>
 
-    <div id="products" class="row list-group">
-        #{list orderItems, as:'orderItem'}
-        <div class="item  col-xs-4 col-lg-4">
-            <div class="thumbnail">
-                <div class="caption">
-                    <h4 class="group inner list-group-item-heading">
-                        ${orderItem.stripeToken}</h4>
-                    <p class="group inner list-group-item-text">
-                        ${orderItem.UUID}</p>
+    #{list orderItems, as:'orderItem'}
+    <div class="row">
+        <div class="item col-lg-12">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h3 class="group inner list-group-item-heading">
+                            Stripe Token: ${orderItem.stripeToken}</h3>
+                        <p class="group inner list-group-item-text">
+                            Order Id: ${orderItem.UUID}</p>
+
+            <div class="row">
+                <div class="item  col-md-2">
+                    <div class="caption">
+                        <h5 class="group inner list-group-item-heading">
+                            Address Line1: ${orderItem.getAddress().address_line1}</h5>
+                    </div>
+                </div>
+                <div class="item  col-xs-2">
+                    <div class="caption">
+                        <h5 class="group inner list-group-item-heading">
+                            Address City: ${orderItem.getAddress().address_city}</h5>
+                    </div>
+                </div>
+                <div class="item  col-xs-2">
+                    <div class="caption">
+                        <h5 class="group inner list-group-item-heading">
+                            Address State: ${orderItem.getAddress().address_state}</h5>
+                    </div>
+                </div>
+                <div class="item  col-xs-2">
+                    <div class="caption">
+                        <h5 class="group inner list-group-item-heading">
+                            Address State: ${orderItem.getAddress().address_zip}</h5>
+                    </div>
                 </div>
             </div>
         </div>
-        #{/list}
+                </div>
+        </div>
     </div>
+        #{/list}
 </div>
 
 </body>
