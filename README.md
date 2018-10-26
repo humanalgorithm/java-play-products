@@ -5,19 +5,19 @@
 
 ### Demonstrates usage of Java Play Framework with a simplified product checkout page.
 
-## Products Page List View
+## Products Page List View, url: /
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/products_page_grid.png "Products Page list view")
   
-## Products Page Grid View  
+## Products Page Grid View, url: /
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/products_page_list.png "Products Page list view")
    
- ## Payment Selection
+ ## Payment Selection, url: /payments/payment_select/{product_id}
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/payment_selection_page.png "Payment selection page")
  
- ## Order Created Page
+ ## Order Created Page, url: /orderitems/create_order_item 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/order_created_page.png "Order Created Page")
 
- ## View All Orders Page
+ ## View All Orders Page url: /order_items/list
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/orders_list_page.png "Order List Page")
 
 
