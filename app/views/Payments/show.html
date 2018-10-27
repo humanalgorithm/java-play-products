@@ -3,18 +3,26 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/payment_selection.css'}">
     <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/stripe.css'}">
     <script src="https://js.stripe.com/v3/"></script>
     <title> Payment Selection </title>
 </head>
 <body>
-
-<h2>Payment Selection Page</h2>
+#{if errors_list}
+<div class="alert alert-danger" role="alert"> Please correct the following errors:</div>
+#{list errors_list, as:'error'}
+  <h4 style="color:red">
+  ${error}
+  </h4>
+#{/list}
+<hr>
+#{/if}
 <div class="row">
     <div class="col-75">
         <div class="container">
-            <form action="/orderitems/create_order_item" method="POST" id="payment-form">
+            <form action="/payments/submit_payment" method="POST" id="payment-form">
 
                 <div class="row">
                     <div class="col-50">

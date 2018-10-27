@@ -4,7 +4,9 @@
 
 GET     /                                        Products.list
 
-GET /payments/select_payment/{product_id}        Payments.show
+GET /payments/input_payment/{product_id}         Payments.show
+
+POST /payments/submit_payment                    Payments.submitPayment
 
 POST /orderitems/create_order_item               OrderItems.createOrderItem
 
