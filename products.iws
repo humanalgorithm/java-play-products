@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8433a8e7-8a1a-425d-80c5-3fdef7c3b2ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/services/AddressValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/OrderItemsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../framework/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../framework/build.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bootstrap.java" afterDir="false" />
@@ -16,6 +14,8 @@
       <change beforePath="$PROJECT_DIR$/app/models/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/OrderItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/AddressValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/AddressValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/OrderItemsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/OrderItemsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/OrderItems/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/OrderItems/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/OrderItems/orderItemCreated.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/OrderItems/orderItemCreated.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Payments/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Payments/show.html" afterDir="false" />
@@ -87,6 +87,8 @@
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Product" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Product" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.User" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.User" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.UserAccount" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.UserAccount" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/services.AddressValidator" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/services.AddressValidator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/services.OrderItemsService" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/services.OrderItemsService" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../modules/docviewer/app/DocViewerPlugin.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../modules/docviewer/app/controllers/PlayDocumentation.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../modules/docviewer/app/controllers/ProjectDocumentation.java" beforeDir="false" />
@@ -180,14 +182,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
+          <entry key="class" value="6" />
           <entry key="conf" value="3" />
           <entry key="credit_card_input_css" value="1" />
           <entry key="css" value="6" />
-          <entry key="html" value="36" />
-          <entry key="java" value="56" />
+          <entry key="html" value="39" />
+          <entry key="java" value="63" />
           <entry key="js" value="7" />
-          <entry key="messages" value="4" />
+          <entry key="messages" value="5" />
           <entry key="png" value="1" />
           <entry key="routes" value="6" />
           <entry key="sql" value="18" />
@@ -196,13 +198,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
+          <entry key="CLASS" value="6" />
           <entry key="CSS" value="6" />
-          <entry key="HTML" value="36" />
+          <entry key="HTML" value="39" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="56" />
+          <entry key="JAVA" value="63" />
           <entry key="JavaScript" value="7" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="PLAIN_TEXT" value="15" />
           <entry key="SQL" value="18" />
           <entry key="YAML" value="8" />
         </counts>
@@ -212,8 +214,8 @@
           <entry key="Servicejava" value="89" />
           <entry key="conf" value="25" />
           <entry key="dummy" value="100" />
-          <entry key="html" value="3852" />
-          <entry key="java" value="11354" />
+          <entry key="html" value="4054" />
+          <entry key="java" value="12556" />
           <entry key="js" value="59" />
           <entry key="routes" value="610" />
           <entry key="sql" value="520" />
@@ -222,8 +224,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3852" />
-          <entry key="JAVA" value="11354" />
+          <entry key="HTML" value="4054" />
+          <entry key="JAVA" value="12556" />
           <entry key="JavaScript" value="59" />
           <entry key="PLAIN_TEXT" value="824" />
           <entry key="SQL" value="520" />
@@ -247,65 +249,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Products/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="121" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/OrderItems.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Payments.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/services/OrderItemsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/services/AddressValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/OrderItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -318,10 +261,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/OrderItems/orderItemCreated.html">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Payments.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="314">
+              <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/services/AddressValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/OrderItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Products/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -329,8 +332,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Payments/show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="374">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -341,8 +344,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/OrderItems/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state relative-caret-position="233">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -352,8 +355,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -383,12 +386,12 @@
       <find>.js</find>
       <find>select_pay</find>
       <find>token</find>
-      <find>form</find>
       <find>createto</find>
       <find>cart</find>
       <find>useraccount</find>
       <find>s</find>
       <find>rendertemplate</find>
+      <find>form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -397,7 +400,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/models/User.java" />
         <option value="$PROJECT_DIR$/app/models/Users.java" />
         <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/public/javascripts/main.js" />
@@ -445,8 +447,9 @@
         <option value="$PROJECT_DIR$/app/controllers/OrderItems.java" />
         <option value="$PROJECT_DIR$/app/views/Products/list.html" />
         <option value="$PROJECT_DIR$/conf/routes" />
-        <option value="$PROJECT_DIR$/app/controllers/Payments.java" />
+        <option value="$PROJECT_DIR$/app/views/Payments/submitPayment.html" />
         <option value="$PROJECT_DIR$/app/views/Payments/show.html" />
+        <option value="$PROJECT_DIR$/app/controllers/Payments.java" />
         <option value="$PROJECT_DIR$/app/services/AddressValidator.java" />
       </list>
     </option>
@@ -458,10 +461,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="145" />
+    <option name="x" value="88" />
+    <option name="y" value="10" />
     <option name="width" value="1742" />
-    <option name="height" value="1004" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -582,7 +585,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540672609973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540676150165" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -627,11 +630,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="116" width="1393" height="803" extended-state="0" />
+    <frame x="87" y="40" width="1393" height="801" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7164179" visible="true" weight="0.20255063" />
-      <window_info id="Structure" order="1" sideWeight="0.2835821" side_tool="true" visible="true" weight="0.20255063" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7170659" visible="true" weight="0.20255063" />
+      <window_info id="Structure" order="1" sideWeight="0.28293413" side_tool="true" visible="true" weight="0.20255063" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -797,9 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/messages">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/initial-data.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -828,16 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/stripe.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -859,33 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../framework/play-1.5.x-1.5.1-29-g5f50133a.jar!/play/mvc/Controller.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="371" column="26" selection-start-line="371" selection-start-column="26" selection-end-line="371" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Products.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/services/OrderItemsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -903,26 +866,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Payments/submitPayment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/messages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../framework/play-1.5.x-1.5.1-29-g5f50133a.jar!/play/mvc/Scope.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="587" column="20" selection-start-line="587" selection-start-column="20" selection-end-line="587" selection-end-column="20" />
+          <folding>
+            <element signature="e#19155#19156#0" expanded="true" />
+            <element signature="e#19223#19224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../framework/play-1.5.x-1.5.1-29-g5f50133a.jar!/play/mvc/Controller.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="375" lean-forward="true" selection-start-line="375" selection-end-line="375" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../framework/play-1.5.x-1.5.1-29-g5f50133a.jar!/play/templates/Template.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/OrderItems/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="233">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Products/list.html">
+    <entry file="file://$PROJECT_DIR$/app/models/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Payments/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/OrderItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Products.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -937,22 +952,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/OrderItems.java">
+    <entry file="file://$PROJECT_DIR$/app/models/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Payments/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Products/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Payments.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        <state relative-caret-position="314">
+          <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -961,8 +991,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/services/AddressValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+        <state relative-caret-position="325">
+          <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

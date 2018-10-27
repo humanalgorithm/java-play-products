@@ -23,9 +23,10 @@ public class AddressValidator {
         return this.errorsList.isEmpty();
     }
 
-    public ArrayList getErrors(){
+    public List getErrors(){
         this.validate();
-        return this.errorsList;
+        List errors_list = this.errorsList.subList(0, this.errorsList.size());
+        return errors_list;
     }
 
     public void validate(){
@@ -55,8 +56,8 @@ public class AddressValidator {
         if (!address_state_valid){
             errorsList.add("Address state is invalid");
         }
-        if (!address_city_valid){
-            errorsList.add("Address city is invalid");
+        if (!address_zip_valid){
+            errorsList.add("Address zip is invalid");
         }
         return errorsList;
     }
@@ -81,7 +82,7 @@ public class AddressValidator {
 
     public boolean validate_address_zip(String address_zip) {
             return address_zip.matches(
-                    " ^[0-9]{5}(?:-[0-9]{4})?$"
+                    "^[0-9]{5}(?:-[0-9]{4})?$"
             );
         }
     }

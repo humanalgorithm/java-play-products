@@ -25,6 +25,7 @@
             <form action="/payments/submit_payment" method="POST" id="payment-form">
 
                 <div class="row">
+                    <input type="hidden" id="product_id" name="product_id" value="${product.id}">
                     <div class="col-50">
                         <h3>Billing Address</h3>
                         <label for="address_line1"><i class="fa fa-address-card-o"></i> Address</label>
