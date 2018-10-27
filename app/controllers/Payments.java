@@ -1,6 +1,6 @@
 package controllers;
 import play.mvc.*;
-import models.*;;
+import models.*;
 import services.AddressValidator;
 import java.util.List;
 
@@ -23,7 +23,7 @@ public class Payments extends Controller {
             renderTemplate("app/views/Payments/show.html",product, errors_list);
         }
         else {
-            redirect("/");
+            Products.list();
         }
     }
 
