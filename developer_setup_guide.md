@@ -59,6 +59,19 @@ You will perform the following steps:
 
 ## 2) Install MySQL server
 +	Download setup installer from the internet -> URL to download the MySQL installer is https://dev.mysql.com/downloads/mysql/
-+ Download the appropriate version for your system (either 32 or 64 bits)
++ Download the smaller version, which is the guided installer
 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/mysql_download.png "MySQL Download")
+
++ After you finish the download, run the "MySQL Installer" which is the guided installation process
++ In the MySQL installer we want to install 3 features "MySQL Server", "MySQL Workbench" and "Connector/J".
++ MySQL Server is the actual database server
++ MySQL Workbench is a UI interface that allows us to interact with the database server
++ Connector/J is the the JDBC driver that we will be using to connect to the MySQL server from our application
++ You get to this screen by cilcking on "Add.." which will bring you to the "Select Products and Features" screen
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/mysql_install_features.png "MySQL Download")
+
++ Go through the installation until you get to the screen regarding authentication, in this case we want to select legacy authentication like so:
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/legacy_authentication.png "MySQL Download")
