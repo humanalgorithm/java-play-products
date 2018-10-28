@@ -32,9 +32,12 @@
       <change beforePath="$PROJECT_DIR$/db/evolutions/1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/evolutions/1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/evolutions/2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/evolutions/2.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/evolutions/3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/evolutions/3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developer_setup_guide/connector_j_jar.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/connector_j_jar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developer_setup_guide/connector_j_move.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/connector_j_move.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/developer_setup_guide/java_home_variable.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/java_home_variable.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/developer_setup_guide/java_se_downloads.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/java_se_downloads.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/developer_setup_guide/java_se_install.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/java_se_install.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developer_setup_guide/legacy_authentication.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/legacy_authentication.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/developer_setup_guide/mysql_download.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/mysql_download.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/developer_setup_guide/mysql_installer_features.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/mysql_installer_features.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/developer_setup_guide/path_variable.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/path_variable.png" afterDir="false" />
@@ -187,6 +190,7 @@
     <session id="233283142">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -330,8 +334,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/OrderItems/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="286">
+              <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -475,8 +479,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="315" />
-    <option name="y" value="106" />
+    <option name="x" value="170" />
+    <option name="y" value="270" />
     <option name="width" value="1358" />
     <option name="height" value="883" />
   </component>
@@ -569,6 +573,11 @@
             <path>
               <item name="products" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-play-products" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="products" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-play-products" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -599,9 +608,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540761690528" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540766158192" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/gson-2.8.2.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -645,11 +654,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="179" y="10" width="1393" height="810" extended-state="0" />
-    <editor active="true" />
+    <frame x="136" y="216" width="1086" height="706" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.71639585" visible="true" weight="0.19429858" />
-      <window_info id="Structure" order="1" sideWeight="0.28360415" side_tool="true" visible="true" weight="0.19429858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7155323" visible="true" weight="0.25243664" />
+      <window_info id="Structure" order="1" sideWeight="0.28446773" side_tool="true" visible="true" weight="0.25243664" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -1025,8 +1033,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/OrderItems/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="286">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
         </state>
       </provider>
     </entry>
