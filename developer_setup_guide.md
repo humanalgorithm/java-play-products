@@ -33,3 +33,10 @@ You will perform the following steps:
 +	Apply database evolutions6utr
 +	Run server localhost:9000
 
+## 1. Install the Proper Version of Java
+1) Install the proper version of Java - 
+# Navigate to Java SE development downloads page:
+# https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+# Download Windows x86 or x64  package depending on your OS
+https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/java_se_downloads.png
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/screenshots/java_se_downloads.png "Java SE Downloads Page")
