@@ -32,7 +32,7 @@ You will perform the following steps:
 
 4) Setup java-play-products app
 +	Git clone from repo into Play folder
-+	Apply database evolutions6utr
++	Apply database evolutions
 +	Run server localhost:9000
 
 ## 1. Install the Proper Version of Java
@@ -70,8 +70,26 @@ You will perform the following steps:
 + Connector/J is the the JDBC driver that we will be using to connect to the MySQL server from our application
 + You get to this screen by cilcking on "Add.." which will bring you to the "Select Products and Features" screen
 
-![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/mysql_installer_features.png "MySQL Download")
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/mysql_installer_features.png "MySQL Installer")
 
 + Go through the installation until you get to the screen regarding authentication, in this case we want to select legacy authentication like so:
 
-![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/legacy_authentication.png "MySQL Download")
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/legacy_authentication.png "Legac Authentication")
+
++ **Set user and password&**
++ When you get to the part of the installation that asks for a root user password set the password to "root". Note that you do not **have** to set it this way but if you use a different password you will need to update this in the application.conf of the java-play-products program
+
+## 3) Install MySQL connector
++ After the MySQL installation the Connector/J step will leave a jar file in your MySQL installation path
++ For example the connector J jar file will get dropped in C:\Program Files (x86)\MySQL\Connector J 8.0
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/connector_j_jar.png "Connector J")
+
++ We want to copy this jar into our Java runtime environment which we set in the previous step. 
++ The file name of the jar will be called mysql-connector
++ You need to copy the file into the the JAVA_HOME/jre/lib/ext/ path. In this case that is located in C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/connector_j_move.png "Connector J Move")
+
++ Notice that we are going into the jre subfolder of the java development kit path* 
+
