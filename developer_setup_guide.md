@@ -34,6 +34,9 @@ You will perform the following steps:
 
 5) Install Play Framework
 +	Git clone from Github
++ Compile with Apache Ant
++ Fix Python bug if occurs
++ Verify can run play command
 
 6) Setup java-play-products app
 +	Git clone from repo into Play folder
