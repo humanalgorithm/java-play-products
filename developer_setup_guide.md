@@ -102,4 +102,22 @@ You will perform the following steps:
 
 + From the directory you cloned the Play Framework into you will now be able to run the "play" command
 
-+ Note that Play Framework pulls down a copy of Python in order to run, this is **not** the version of Python you may already have installed on your machine. If you get an error when running the play like the following you can fix it by copying existing python files on your machine to the python directory provided in the play framework. In my case I am copying python files from C:\Python27 to C:\Users\Michael\Desktop\play1\python
++ Note that Play Framework pulls down a copy of Python in order to run, this is **not** the version of Python you may already have installed on your machine. If you get an error when running the play like the following you can fix it by copying existing python files on your machine to the python directory provided in the play framework. In my case I am copying all of the python files in the folder C:\Python27 to C:\Users\Michael\Desktop\play1\python
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/python_to_python.png "Copy Python to Python")
+
+## 5) Setup java-play-products app
++	Git clone from repo into Play folder. From the /play folder you cloned the Play Framework into, do a git clone of this repo like so:
++ git clone https://github.com/humanalgorithm/java-play-products.git
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/git_clone_humanalgorithm.png "Git Clone Humanalgorithm")
+
++ Now you can run the play evolutions which will create the necessary database tables, use the following command:
++ play evolutions:apply java-play-products where "java-play-products" is the name of the app
++ You will see the following output when you run this command: 
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/play_evolutions_apply.png "Play evolutions apply")
+
+
++	Apply database evolutions
++	Run server localhost:9000
