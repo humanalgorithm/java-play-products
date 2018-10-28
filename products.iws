@@ -32,8 +32,12 @@
       <change beforePath="$PROJECT_DIR$/db/evolutions/1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/evolutions/1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/evolutions/2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/evolutions/2.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/evolutions/3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/evolutions/3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developer_setup_guide/java_home_variable.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/java_home_variable.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/developer_setup_guide/java_se_downloads.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/java_se_downloads.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/developer_setup_guide/java_se_install.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/java_se_install.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developer_setup_guide/mysql_download.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/mysql_download.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developer_setup_guide/mysql_installer_features.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/mysql_installer_features.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developer_setup_guide/path_variable.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/path_variable.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/documentation/files/manual.css" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/files/manual.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/documentation/files/wiki.css" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/files/wiki.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/documentation/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/images/logo.png" afterDir="false" />
@@ -471,10 +475,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="57" />
-    <option name="width" value="1742" />
-    <option name="height" value="1013" />
+    <option name="x" value="315" />
+    <option name="y" value="106" />
+    <option name="width" value="1358" />
+    <option name="height" value="883" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -595,7 +599,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540755979967" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540761690528" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/gson-2.8.2.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -641,7 +645,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="46" width="1393" height="810" extended-state="0" />
+    <frame x="179" y="10" width="1393" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.71639585" visible="true" weight="0.19429858" />
