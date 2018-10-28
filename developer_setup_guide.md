@@ -27,10 +27,15 @@ You will perform the following steps:
 + Locate MySQL connector Jar that was created in the MySQL that was createdd in the MySQL installation
 + Move MySQL connector Jar to the appropriate location
 
-4) Install Play Framework
+4) Download and Install Apache Ant
++ Download Ant from Apache
++ Set Ant environment variable
++ Verify Ant command is working
+
+5) Install Play Framework
 +	Git clone from Github
 
-5) Setup java-play-products app
+6) Setup java-play-products app
 +	Git clone from repo into Play folder
 +	Apply database evolutions
 +	Run server localhost:9000
@@ -93,7 +98,22 @@ You will perform the following steps:
 
 + Notice that we are going into the jre subfolder of the java development kit path* 
 
-## 4) Install Play Framework
+
+## 4) Download and Install Apache Ant
++ In order to compile the Play Framework in the next step we will next to install Apache Ant. The location to intall is 1.10.5
++ Download Ant from Apache. The Url for download is: https://ant.apache.org/bindownload.cgi
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/download_ant.png "Download Ant")
+
++ Download and unzip this file to your local machine. In this case I am extract Ant to the following location: C:\Program Files (x86)\Ant\apache-ant-1.10.5
+
++ Go back to your environment variables under computer properties as you set in the Java step and now set an environment variable ANT_HOME and set it to the extract location of wherey you put apache ant. 
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/ant_environment_variable.png "Ant Environment Variable")
+
++ Verify Ant command is working. If all went correctly  you will be able to open a command prompt and then type "ant"
+
+## 5) Install Play Framework
 +	Git clone from Github
 + Git clone Java Play 1.4 from the following URL: https://github.com/playframework/play1.git
 + From your command prompt run "git clone https://github.com/playframework/play1.git" in this case I am running from c:/Users/Michael/Desktop/play_repo and the cloned folder will live at C:/Users/Michael/Desktop/play_repo/play1
@@ -101,12 +121,15 @@ You will perform the following steps:
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/git_clone_playframework.png "Git PLay Framework")
 
 + From the directory you cloned the Play Framework into you will now be able to run the "play" command
++ Verify you are able to run the "play" command. From the play framework directory you cloned run "play"
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/play_command.png "Play Command")
 
 + Note that Play Framework pulls down a copy of Python in order to run, this is **not** the version of Python you may already have installed on your machine. If you get an error when running the play like the following you can fix it by copying existing python files on your machine to the python directory provided in the play framework. In my case I am copying all of the python files in the folder C:\Python27 to C:\Users\Michael\Desktop\play1\python
 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/python_to_python.png "Copy Python to Python")
 
-## 5) Setup java-play-products app
+## 6) Setup java-play-products app
 +	Git clone from repo into Play folder. From the /play folder you cloned the Play Framework into, do a git clone of this repo like so:
 + git clone https://github.com/humanalgorithm/java-play-products.git
 
