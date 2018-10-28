@@ -10,6 +10,7 @@ import com.stripe.exception.StripeException;
 
 public class OrderItemsService {
     public Address address;
+    public Product product;
     public String stripeToken;
     public double productPrice;
     public Charge chargeResult;
@@ -17,16 +18,16 @@ public class OrderItemsService {
     public String errorResult;
     public static final String API_KEY = "sk_test_GYOrNT2FV5WmNaLnab77e3RD";
 
-    public OrderItemsService(Address address, String stripeToken, double productPrice){
+    public OrderItemsService(Address address, String stripeToken, Product product){
         this.address = address;
         this.stripeToken = stripeToken;
-        this.productPrice = productPrice;
+        this.product = product;
     }
 
     public boolean createOrderItem(){
         boolean success = chargeStripe();
         if (success){
-            OrderItem orderItem = new OrderItem(this.chargeResult.getId(), this.address);
+            OrderItem orderItem = new OrderItem(this.chargeResult.getId(), this.address, this.product);
             orderItem.save();
             this.createdOrderItem = orderItem;
             return true;
@@ -39,7 +40,7 @@ public class OrderItemsService {
         Stripe.apiKey = this.API_KEY;
 
         Map<String, Object> chargeMap = new HashMap<String, Object>();
-        chargeMap.put("amount", (long)this.productPrice);
+        chargeMap.put("amount", (long)this.product.price);
         chargeMap.put("currency", "usd");
         chargeMap.put("source", this.stripeToken);
 

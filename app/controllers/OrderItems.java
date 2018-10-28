@@ -6,21 +6,21 @@ import services.OrderItemsService;
 import java.util.List;
 
 public class OrderItems extends Controller {
-    public static void createOrderItem(Address address, String stripeToken, double productPrice)
+    public static void createOrderItem(Address address, String stripeToken, Product product)
     {
-        OrderItemsService service = new OrderItemsService(address, stripeToken, productPrice);
+        OrderItemsService service = new OrderItemsService(address, stripeToken, product);
         boolean success = service.createOrderItem();
         if (success) {
             OrderItem orderItem = service.getCreatedOrderItem();
-            orderItemCreated(orderItem, orderItem.getAddress());
+            orderItemCreated(orderItem, orderItem.getAddress(), orderItem.getProduct());
         }
         else {
             orderItemCreationError(service.getError());
         }
     }
 
-    public static void orderItemCreated(OrderItem orderItem, Address address){
-        render(orderItem, address);
+    public static void orderItemCreated(OrderItem orderItem, Address address, Product product){
+        render(orderItem, address, product);
     }
 
     public static void orderItemCreationError(String error){

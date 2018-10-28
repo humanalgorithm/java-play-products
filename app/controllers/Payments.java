@@ -18,7 +18,7 @@ public class Payments extends Controller {
         redirectIfInvalidAddress(address_line1, address_city, address_state, address_zip, product);
         Address address = new Address(address_line1, address_city, address_state, address_zip);
         address.save();
-        OrderItems.createOrderItem(address, stripeToken, product.price);
+        OrderItems.createOrderItem(address, stripeToken, product);
     }
 
     public void redirectIfInvalidAddress(String address_line1,  String address_city, String address_state,
