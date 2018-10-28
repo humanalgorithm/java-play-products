@@ -86,10 +86,3 @@ public class AddressValidator {
             );
         }
     }
-
-
-//    Address address = new Address(address_line1, address_city, address_state, address_zip);
-//        address.save();
-//                OrderItem orderItem = new OrderItem(stripeToken, address);
-//                orderItem.save();
-//                orderItemCreated(orderItem, address);

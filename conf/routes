@@ -8,7 +8,7 @@ GET /payments/input_payment/{product_id}         Payments.show
 
 POST /payments/submit_payment                    Payments.submitPayment
 
-POST /orderitems/create_order_item               OrderItems.createOrderItem
+GET /orderitems/create_order_item               OrderItems.createOrderItem
 
 GET /order_items/list                            OrderItems.list
 

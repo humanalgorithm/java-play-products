@@ -6,7 +6,6 @@ import java.util.*;
 public class Products extends Controller {
     public static void list() {
         List<Product> products = Product.findAll();
-        Product product = products.get(0);
         render(products);
     }
 }

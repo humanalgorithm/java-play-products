@@ -11,12 +11,12 @@ public class OrderItem extends Model {
     @Column(name="id")
     public Long id;
 
-    public String stripeToken;
+    public String stripeId;
     public String UUID;
     public long address_id;
 
-    public OrderItem(String stripeToken, Address address){
-        this.stripeToken = stripeToken;
+    public OrderItem(String stripeId, Address address){
+        this.stripeId = stripeId;
         this.UUID = java.util.UUID.randomUUID().toString();
         this.address_id = address.id;
     }

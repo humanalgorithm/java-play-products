@@ -19,8 +19,8 @@
         <SOURCES>
           <root url="file://$MODULE_DIR$/../modules/docviewer/src" />
         </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../modules/docviewer/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../modules/docviewer/lib" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
@@ -51,5 +51,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="stripe-java-7.1.0" level="project" />
+    <orderEntry type="library" name="gson-2.8.2" level="project" />
   </component>
 </module>

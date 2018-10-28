@@ -139,4 +139,20 @@
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
+  <component name="libraryTable">
+    <library name="gson-2.8.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/gson-2.8.2.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="stripe-java-7.1.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/stripe-java-7.1.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
 </project>
