@@ -81,7 +81,7 @@ You will perform the following steps:
 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/legacy_authentication.png "Legac Authentication")
 
-+ **Set user and password&**
++ **Set user and password**
 + When you get to the part of the installation that asks for a root user password set the password to "root". Note that you do not **have** to set it this way but if you use a different password you will need to update this in the application.conf of the java-play-products program
 
 ## 3) Install MySQL connector
@@ -113,6 +113,8 @@ You will perform the following steps:
 
 + Verify Ant command is working. If all went correctly  you will be able to open a command prompt and then type "ant"
 
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/ant_run.png "Ant Run")
+
 ## 5) Install Play Framework
 +	Git clone from Github
 + Git clone Java Play 1.4 from the following URL: https://github.com/playframework/play1.git
@@ -121,6 +123,10 @@ You will perform the following steps:
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/git_clone_playframework.png "Git PLay Framework")
 
 + From the directory you cloned the Play Framework into you will now be able to run the "play" command
++ Compile Play Framework with Ant. Using the Apache Ant we installed in the previous step cd into play/framework and then run "ant". You should see the framework get compiled. 
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/run_ant.png "Run Ant")
+
 + Verify you are able to run the "play" command. From the play framework directory you cloned run "play"
 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/play_command.png "Play Command")
