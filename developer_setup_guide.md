@@ -27,10 +27,10 @@ You will perform the following steps:
 + Locate MySQL connector Jar that was created in the MySQL that was createdd in the MySQL installation
 + Move MySQL connector Jar to the appropriate location
 
-3) Install Play Framework
+4) Install Play Framework
 +	Git clone from Github
 
-4) Setup java-play-products app
+5) Setup java-play-products app
 +	Git clone from repo into Play folder
 +	Apply database evolutions
 +	Run server localhost:9000
@@ -93,3 +93,13 @@ You will perform the following steps:
 
 + Notice that we are going into the jre subfolder of the java development kit path* 
 
+## 4) Install Play Framework
++	Git clone from Github
++ Git clone Java Play 1.4 from the following URL: https://github.com/playframework/play1.git
++ From your command prompt run "git clone https://github.com/playframework/play1.git" in this case I am running from c:/Users/Michael/Desktop/play_repo and the cloned folder will live at C:/Users/Michael/Desktop/play_repo/play1
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/git_clone_playframework.png "Git PLay Framework")
+
++ From the directory you cloned the Play Framework into you will now be able to run the "play" command
+
++ Note that Play Framework pulls down a copy of Python in order to run, this is **not** the version of Python you may already have installed on your machine. If you get an error when running the play like the following you can fix it by copying existing python files on your machine to the python directory provided in the play framework. In my case I am copying python files from C:\Python27 to C:\Users\Michael\Desktop\play1\python
