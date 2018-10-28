@@ -32,6 +32,8 @@
       <change beforePath="$PROJECT_DIR$/db/evolutions/1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/evolutions/1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/evolutions/2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/evolutions/2.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/evolutions/3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/evolutions/3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developer_setup_guide/java_se_downloads.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/java_se_downloads.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/developer_setup_guide/java_se_install.png" beforeDir="false" afterPath="$PROJECT_DIR$/developer_setup_guide/java_se_install.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/documentation/files/manual.css" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/files/manual.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/documentation/files/wiki.css" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/files/wiki.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/documentation/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/images/logo.png" afterDir="false" />
@@ -316,7 +318,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/OrderItems/orderItemCreated.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="332">
-              <caret line="36" column="73" lean-forward="true" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+              <caret line="36" column="73" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -468,9 +470,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="116" />
-    <option name="y" value="278" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="47" />
+    <option name="y" value="57" />
     <option name="width" value="1742" />
     <option name="height" value="1013" />
   </component>
@@ -593,7 +595,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540755754612" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540755979967" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/gson-2.8.2.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -639,7 +641,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="30" width="1393" height="810" extended-state="0" />
+    <frame x="38" y="46" width="1393" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.71639585" visible="true" weight="0.19429858" />
@@ -1006,7 +1008,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/OrderItems/orderItemCreated.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
-          <caret line="36" column="73" lean-forward="true" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
+          <caret line="36" column="73" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
         </state>
       </provider>
     </entry>
