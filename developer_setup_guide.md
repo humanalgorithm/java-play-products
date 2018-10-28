@@ -39,3 +39,5 @@ You will perform the following steps:
 + https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 + Download Windows x86 or x64  package depending on your OS
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/java_se_downloads.png "Java SE Downloads Page")
++ Run through the setup and take note of your installation location
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/java_se_install.png "Java SE Downloads Page")
