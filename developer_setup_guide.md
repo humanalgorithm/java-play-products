@@ -70,7 +70,7 @@ You will perform the following steps:
 + Connector/J is the the JDBC driver that we will be using to connect to the MySQL server from our application
 + You get to this screen by cilcking on "Add.." which will bring you to the "Select Products and Features" screen
 
-![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/mysql_install_features.png "MySQL Download")
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/mysql_installer_features.png "MySQL Download")
 
 + Go through the installation until you get to the screen regarding authentication, in this case we want to select legacy authentication like so:
 
