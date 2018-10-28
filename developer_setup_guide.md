@@ -15,8 +15,6 @@ You will perform the following steps:
 +	Download required version from the internet
 +	Install locally
 + Set Java path variables
-+	Download MySQL Connector
-+	Move MySQL JAR file to the JAVA_HOME directory]
 
 2) Install MySQL server
 +	Download setup installer from the internet
@@ -24,6 +22,10 @@ You will perform the following steps:
 + Enable legacy authentication
 +	Set root username and password
 +	Install MySQL Workbench
+
+3) Install MySQL Connector
++ Locate MySQL connector Jar that was created in the MySQL that was createdd in the MySQL installation
++ Move MySQL connector Jar to the appropriate location
 
 3) Install Play Framework
 +	Git clone from Github
@@ -54,3 +56,9 @@ You will perform the following steps:
 + Next you want to make sure that that your JAVA_HOME variable is part of your PATH variable. Your PATH variable tells your command prompt where to look for installed programs. You can either put the full location or use the %<variable_name>% syntax to append to the end of path. 
 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/path_variable.png "Path Variable")
+
+## 2) Install MySQL server
++	Download setup installer from the internet -> URL to download the MySQL installer is https://dev.mysql.com/downloads/mysql/
++ Download the appropriate version for your system (either 32 or 64 bits)
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/mysql_download.png "MySQL Download")
