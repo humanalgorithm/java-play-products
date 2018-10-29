@@ -7,6 +7,8 @@
 +	Java: version required 1.8
 +	Play Framework: 1.4x
 +	MySQL Server version: 8.0.12
++ Connector/J 8.0
++ Apache Ant 1.10.5
 + Setup java-play-products app
 
 *The following guide is a walk through on a Windows 8 machine
