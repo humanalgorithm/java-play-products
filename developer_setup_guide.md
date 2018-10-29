@@ -134,7 +134,11 @@ You will perform the following steps:
 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/play_command.png "Play Command")
 
-+ Note that Play Framework pulls down a copy of Python in order to run, this is **not** the version of Python you may already have installed on your machine. If you get an error when running the play like the following you can fix it by copying existing python files on your machine to the python directory provided in the play framework. In my case I am copying all of the python files in the folder C:\Python27 to C:\Users\Michael\Desktop\play1\python
++ Note that Play Framework pulls down a copy of Python in order to run, this is **not** the version of Python you may already have installed on your machine. You might get the following bug: 
+
+![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/python_bug.png "Python Bug")
+
+If you get this bug when running play you can fix it by copying existing python files on your machine to the python directory provided in the play framework. In my case I am copying all of the python files in the folder C:\Python27 to C:\Users\Michael\Desktop\play1\python
 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/python_to_python.png "Copy Python to Python")
 
@@ -149,7 +153,4 @@ You will perform the following steps:
 + You will see the following output when you run this command: 
 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/play_evolutions_apply.png "Play evolutions apply")
-
-
-+	Apply database evolutions
-+	Run server localhost:9000
++	Run server localhost:9000. This is the last step, just run "play run java-play-products" and you will have a web server ready for browsing at localhost:9000
