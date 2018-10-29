@@ -17,6 +17,7 @@ You will perform the following steps:
 +	Download required version from the internet
 +	Install locally
 + Set Java path variables
++ Verify Java installation successful with javac command
 
 2) Install MySQL server
 +	Download setup installer from the internet
@@ -67,6 +68,8 @@ You will perform the following steps:
 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/path_variable.png "Path Variable")
 
++ After you have updated your environment variables restart your command prompt and type "javac" you should get a prompt for available java compilation options
+
 ## 2) Install MySQL server
 +	Download setup installer from the internet -> URL to download the MySQL installer is https://dev.mysql.com/downloads/mysql/
 + Download the smaller version, which is the guided installer
@@ -110,11 +113,13 @@ You will perform the following steps:
 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/download_ant.png "Download Ant")
 
-+ Download and unzip this file to your local machine. In this case I am extract Ant to the following location: C:\Program Files (x86)\Ant\apache-ant-1.10.5
++ Download and unzip this file to your local machine. In this case I am extracting Ant to the following location: C:\Program Files (x86)\Ant\apache-ant-1.10.5
 
 + Go back to your environment variables under computer properties as you set in the Java step and now set an environment variable ANT_HOME and set it to the extract location of wherey you put apache ant. 
 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/ant_environment_variable.png "Ant Environment Variable")
+
++ Once you have added the ANT_HOME environment variable, add it to the end of your PATH variable like you did in the Java step.
 
 + Verify Ant command is working. If all went correctly  you will be able to open a command prompt and then type "ant"
 
