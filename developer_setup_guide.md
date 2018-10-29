@@ -132,10 +132,11 @@ You will perform the following steps:
 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/git_clone_playframework.png "Git PLay Framework")
 
-+ From the directory you cloned the Play Framework into you will now be able to run the "play" command
 + Compile Play Framework with Ant. Using the Apache Ant we installed in the previous step cd into play/framework and then run "ant". You should see the framework get compiled. 
 
 ![Alt text](https://github.com/humanalgorithm/java-play-products/blob/master/developer_setup_guide/run_ant.png "Run Ant")
+
++ From the directory you cloned the Play Framework into you will now be able to run the "play" command
 
 + Verify you are able to run the "play" command. From the play framework directory you cloned run "play"
 
